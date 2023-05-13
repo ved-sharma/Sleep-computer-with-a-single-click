@@ -38,9 +38,11 @@ Many errors were encountered on the way. Here is how I fixed them:
 1. To execute PS scripts, changed the Execution policy using PowerShell
 <code>Get-ExecutionPolicy</code>
 showed Restricted, which means all scripts are blocked from running. Changed this to RemoteSigned by running:
-<code>Set-ExecutionPolicy RemoteSigned</code>
+<code>Set-ExecutionPolicy RemoteSigned</code>  
+  
+2. After sucessfully trying out the method here, execution policy could be set back to _Restricted_ in PS, without affecting the single-click sleep.  
 
-2. Before running step 2, I needed to upgrade my PowerShell, which was version 2, to version 5.1 (Instructions [here](https://giritharan.com/install-the-latest-powershell-on-windows-7/)).  
+3. Before running step 2, I needed to upgrade my PowerShell, which was version 2, to version 5.1 (Instructions [here](https://giritharan.com/install-the-latest-powershell-on-windows-7/)).  
 First, check the current PS version with <code>$PSVersionTable</code> or <code>$PSVersionTable.PSVersion</code> or <code>Get-Host | Select-Object Version</code>  
 Download the latest Windows Management Framework from the Microsoft site - Win7AndW2K8R2-KB3191566-x64.zip, which is for a 64 bit computer. Unzip it and you will see the following two files:  
 ![image](https://github.com/ved-sharma/Sleep-computer-with-a-single-click/assets/39934015/0643df15-d6d6-43bc-b6da-6749b24befbd)  
