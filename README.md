@@ -8,7 +8,7 @@ Following is the powershell script ([original source](https://superuser.com/ques
 
 Open notepad and copy the above text. Save it as _Sleep.ps1_ somewhere on your Desktop.  
 
-**Note:** If you right click on the file and choose "Run with PowerShell", it will put your computer to sleep. But that's two clicks and we want a single-click solution.  
+**Note:** If you right click on the file and choose "Run with PowerShell", it will put your computer to sleep. But that's two clicks and we want a single-click solution!  
 
 ### Step 2: Install PS2EXE Module  
 Run PowerShell as administrator.  
@@ -40,7 +40,7 @@ Many errors were encountered on the way. Here is how I fixed them:
 showed Restricted, which means all scripts are blocked from running. Changed this to RemoteSigned by running:
 <code>Set-ExecutionPolicy RemoteSigned</code>
 
-2. Before running step 2, I needed to upgrade my PowerShell, which was version 2, to version 5.1  
+2. Before running step 2, I needed to upgrade my PowerShell, which was version 2, to version 5.1 (Instructions [here](https://giritharan.com/install-the-latest-powershell-on-windows-7/)).  
 First, check the current PS version with <code>$PSVersionTable</code> or <code>$PSVersionTable.PSVersion</code> or <code>Get-Host | Select-Object Version</code>  
 Download the latest Windows Management Framework from the Microsoft site - Win7AndW2K8R2-KB3191566-x64.zip, which is for a 64 bit computer. Unzip it and you will see the following two files:  
 ![image](https://github.com/ved-sharma/Sleep-computer-with-a-single-click/assets/39934015/0643df15-d6d6-43bc-b6da-6749b24befbd)  
