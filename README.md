@@ -1,4 +1,4 @@
-Following method worked on a Windows 7 computer
+I usually put my computer to sleep when I am done, so that it can start quickly the next time I am on it. It was annoying that I had to click a few times before I can select the Sleep option. I watned a single click solution, where I press an icon docked on my takbar, and it runs the sleep command. Following works on a Windows 7 computer.
 
 ### Step 1: PowerShell Script
 Following is the powershell script ([original source](https://superuser.com/questions/39584/what-is-the-command-to-use-to-put-your-computer-to-sleep-not-hibernate)) for making computer to sleep:  
