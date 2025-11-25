@@ -1,4 +1,4 @@
-🖱️ This is a single-click option to put your Windows computer to sleep.  
+🖰 This is a single-click option to put your Windows computer to sleep.  
 💤 You press an icon docked to your taskbar and your computer goes to sleep.  
 🖳 Tested on a Windows 7 computer
 
