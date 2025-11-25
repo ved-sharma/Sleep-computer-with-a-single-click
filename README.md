@@ -1,6 +1,6 @@
-This is a single-click option to put your Windows computer to sleep.  
-You press an icon docked to your taskbar and your computer goes to sleep.  
-Tested on a Windows 7 computer
+🖱️ This is a single-click option to put your Windows computer to sleep.  
+💤 You press an icon docked to your taskbar and your computer goes to sleep.  
+🖳 Tested on a Windows 7 computer
 
 ### Step 1: PowerShell Script
 Following is the powershell script ([original source](https://superuser.com/questions/39584/what-is-the-command-to-use-to-put-your-computer-to-sleep-not-hibernate)) for making computer to sleep:  
